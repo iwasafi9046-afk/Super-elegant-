@@ -42,12 +42,10 @@ android {
 }
 
 dependencies {
-    // مكتبات أندرويد الأساسية المستقرة والمباشرة
     implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
     
-    // مكتبات جيت باك كومبوز لبناء واجهة اللانشر الفخمة
     val composeBom = platform("androidx.compose:compose-bom:2023.05.01")
     implementation(composeBom)
     implementation("androidx.compose.ui:ui")
