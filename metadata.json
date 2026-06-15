@@ -1,0 +1,6 @@
+{
+  "name": "Draco Launcher",
+  "description": "An elegant, modern launcher featuring a quick app drawer, double-tap radial menu, and customizable app actions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
